@@ -1,0 +1,5975 @@
+[
+  {
+    "city": "Pune",
+    "country": "IN",
+    "current": {
+      "temp": 27.9,
+      "humidity": 32,
+      "pressure": 1003,
+      "wind_speed": 8.1,
+      "dew_point": 24.4,
+      "uv_index": 4,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 22.9,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 22.4,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 21.6,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 29.0,
+          "precip": 0.0
+        },
+        {
+          "time": "18:02",
+          "temp": 25.6,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 23.6,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 23.8,
+          "precip": 0.02
+        },
+        {
+          "time": "21:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 27.2,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 24.6,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 24.6,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 30.5,
+          "precip": 0.12
+        },
+        {
+          "time": "02:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 27.5,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 30.8,
+          "precip": 0.02
+        },
+        {
+          "time": "06:02",
+          "temp": 31.8,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 26.5,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 26.6,
+          "precip": 0.13
+        },
+        {
+          "time": "09:02",
+          "temp": 33.1,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 28.1,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 33.7,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 32.0,
+          "precip": 0.13
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 24.2,
+          "min": 21.2,
+          "max": 27.2
+        },
+        {
+          "date": "Nov 02",
+          "avg": 31.8,
+          "min": 28.8,
+          "max": 34.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 30.6,
+          "min": 27.6,
+          "max": 33.6
+        },
+        {
+          "date": "Nov 04",
+          "avg": 24.7,
+          "min": 21.7,
+          "max": 27.7
+        },
+        {
+          "date": "Nov 05",
+          "avg": 24.3,
+          "min": 21.3,
+          "max": 27.3
+        },
+        {
+          "date": "Nov 06",
+          "avg": 28.0,
+          "min": 25.0,
+          "max": 31.0
+        },
+        {
+          "date": "Nov 07",
+          "avg": 31.0,
+          "min": 28.0,
+          "max": 34.0
+        }
+      ]
+    }
+  },
+  {
+    "city": "Mumbai",
+    "country": "IN",
+    "current": {
+      "temp": 23.6,
+      "humidity": 34,
+      "pressure": 1016,
+      "wind_speed": 2.6,
+      "dew_point": 19.6,
+      "uv_index": 3,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 21.3,
+          "precip": 0.28
+        },
+        {
+          "time": "14:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 16.4,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 18.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 22.9,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 21.6,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 21.9,
+          "precip": 0.23
+        },
+        {
+          "time": "21:02",
+          "temp": 25.3,
+          "precip": 0.01
+        },
+        {
+          "time": "22:02",
+          "temp": 22.6,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 22.9,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 20.4,
+          "precip": 0.06
+        },
+        {
+          "time": "01:02",
+          "temp": 19.9,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 23.0,
+          "precip": 0.11
+        },
+        {
+          "time": "04:02",
+          "temp": 25.1,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 26.5,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 26.8,
+          "precip": 0.29
+        },
+        {
+          "time": "09:02",
+          "temp": 21.4,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 27.3,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 20.9,
+          "precip": 0.29
+        },
+        {
+          "time": "12:02",
+          "temp": 26.1,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.7,
+          "min": 17.7,
+          "max": 23.7
+        },
+        {
+          "date": "Nov 02",
+          "avg": 26.4,
+          "min": 23.4,
+          "max": 29.4
+        },
+        {
+          "date": "Nov 03",
+          "avg": 26.5,
+          "min": 23.5,
+          "max": 29.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 28.2,
+          "min": 25.2,
+          "max": 31.2
+        },
+        {
+          "date": "Nov 05",
+          "avg": 17.1,
+          "min": 14.1,
+          "max": 20.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 27.9,
+          "min": 24.9,
+          "max": 30.9
+        },
+        {
+          "date": "Nov 07",
+          "avg": 25.3,
+          "min": 22.3,
+          "max": 28.3
+        }
+      ]
+    }
+  },
+  {
+    "city": "Delhi",
+    "country": "IN",
+    "current": {
+      "temp": 28.7,
+      "humidity": 81,
+      "pressure": 1006,
+      "wind_speed": 3.0,
+      "dew_point": 24.2,
+      "uv_index": 4,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 24.1,
+          "precip": 0.06
+        },
+        {
+          "time": "14:02",
+          "temp": 27.7,
+          "precip": 0.26
+        },
+        {
+          "time": "15:02",
+          "temp": 27.5,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 26.5,
+          "precip": 0.29
+        },
+        {
+          "time": "17:02",
+          "temp": 23.7,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 23.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 26.1,
+          "precip": 0.2
+        },
+        {
+          "time": "21:02",
+          "temp": 25.2,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 26.8,
+          "precip": 0.13
+        },
+        {
+          "time": "23:02",
+          "temp": 28.3,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 30.6,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 24.9,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 29.4,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 27.6,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 29.6,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 33.2,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 27.1,
+          "precip": 0.02
+        },
+        {
+          "time": "07:02",
+          "temp": 26.9,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 32.8,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 33.3,
+          "precip": 0.06
+        },
+        {
+          "time": "10:02",
+          "temp": 32.4,
+          "precip": 0.11
+        },
+        {
+          "time": "11:02",
+          "temp": 31.3,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 33.2,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 25.6,
+          "min": 22.6,
+          "max": 28.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 24.7,
+          "min": 21.7,
+          "max": 27.7
+        },
+        {
+          "date": "Nov 03",
+          "avg": 25.9,
+          "min": 22.9,
+          "max": 28.9
+        },
+        {
+          "date": "Nov 04",
+          "avg": 33.7,
+          "min": 30.7,
+          "max": 36.7
+        },
+        {
+          "date": "Nov 05",
+          "avg": 32.6,
+          "min": 29.6,
+          "max": 35.6
+        },
+        {
+          "date": "Nov 06",
+          "avg": 25.2,
+          "min": 22.2,
+          "max": 28.2
+        },
+        {
+          "date": "Nov 07",
+          "avg": 34.1,
+          "min": 31.1,
+          "max": 37.1
+        }
+      ]
+    }
+  },
+  {
+    "city": "London",
+    "country": "GB",
+    "current": {
+      "temp": 24.4,
+      "humidity": 48,
+      "pressure": 1008,
+      "wind_speed": 1.0,
+      "dew_point": 24.2,
+      "uv_index": 4,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 20.9,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 23.9,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 23.2,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 21.1,
+          "precip": 0.04
+        },
+        {
+          "time": "17:02",
+          "temp": 25.1,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 21.4,
+          "precip": 0.03
+        },
+        {
+          "time": "19:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 21.3,
+          "precip": 0.19
+        },
+        {
+          "time": "21:02",
+          "temp": 23.1,
+          "precip": 0.21
+        },
+        {
+          "time": "22:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 28.7,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 28.4,
+          "precip": 0.25
+        },
+        {
+          "time": "01:02",
+          "temp": 26.2,
+          "precip": 0.26
+        },
+        {
+          "time": "02:02",
+          "temp": 27.5,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 27.3,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 25.0,
+          "precip": 0.2
+        },
+        {
+          "time": "07:02",
+          "temp": 29.9,
+          "precip": 0.3
+        },
+        {
+          "time": "08:02",
+          "temp": 31.1,
+          "precip": 0.1
+        },
+        {
+          "time": "09:02",
+          "temp": 31.5,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 30.2,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 24.9,
+          "precip": 0.25
+        },
+        {
+          "time": "12:02",
+          "temp": 25.5,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 26.6,
+          "min": 23.6,
+          "max": 29.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 21.8,
+          "min": 18.8,
+          "max": 24.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 31.5,
+          "min": 28.5,
+          "max": 34.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 21.9,
+          "min": 18.9,
+          "max": 24.9
+        },
+        {
+          "date": "Nov 05",
+          "avg": 20.5,
+          "min": 17.5,
+          "max": 23.5
+        },
+        {
+          "date": "Nov 06",
+          "avg": 31.6,
+          "min": 28.6,
+          "max": 34.6
+        },
+        {
+          "date": "Nov 07",
+          "avg": 30.8,
+          "min": 27.8,
+          "max": 33.8
+        }
+      ]
+    }
+  },
+  {
+    "city": "New York",
+    "country": "US",
+    "current": {
+      "temp": 19.9,
+      "humidity": 76,
+      "pressure": 1009,
+      "wind_speed": 7.4,
+      "dew_point": 15.6,
+      "uv_index": 9,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 15.1,
+          "precip": 0.1
+        },
+        {
+          "time": "14:02",
+          "temp": 20.7,
+          "precip": 0.11
+        },
+        {
+          "time": "15:02",
+          "temp": 18.5,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 21.4,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 17.4,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 20.1,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 19.7,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 21.4,
+          "precip": 0.1
+        },
+        {
+          "time": "21:02",
+          "temp": 15.4,
+          "precip": 0.24
+        },
+        {
+          "time": "22:02",
+          "temp": 18.5,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 18.5,
+          "precip": 0.16
+        },
+        {
+          "time": "00:02",
+          "temp": 21.4,
+          "precip": 0.15
+        },
+        {
+          "time": "01:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 17.9,
+          "precip": 0.2
+        },
+        {
+          "time": "03:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 17.1,
+          "precip": 0.19
+        },
+        {
+          "time": "05:02",
+          "temp": 24.6,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 22.7,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 25.7,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 25.9,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 25.8,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 23.9,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 24.7,
+          "precip": 0.28
+        },
+        {
+          "time": "12:02",
+          "temp": 22.0,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.7,
+          "min": 17.7,
+          "max": 23.7
+        },
+        {
+          "date": "Nov 02",
+          "avg": 17.7,
+          "min": 14.7,
+          "max": 20.7
+        },
+        {
+          "date": "Nov 03",
+          "avg": 17.1,
+          "min": 14.1,
+          "max": 20.1
+        },
+        {
+          "date": "Nov 04",
+          "avg": 21.2,
+          "min": 18.2,
+          "max": 24.2
+        },
+        {
+          "date": "Nov 05",
+          "avg": 18.8,
+          "min": 15.8,
+          "max": 21.8
+        },
+        {
+          "date": "Nov 06",
+          "avg": 19.0,
+          "min": 16.0,
+          "max": 22.0
+        },
+        {
+          "date": "Nov 07",
+          "avg": 15.7,
+          "min": 12.7,
+          "max": 18.7
+        }
+      ]
+    }
+  },
+  {
+    "city": "Los Angeles",
+    "country": "US",
+    "current": {
+      "temp": 26.6,
+      "humidity": 30,
+      "pressure": 997,
+      "wind_speed": 2.5,
+      "dew_point": 26.6,
+      "uv_index": 5,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 23.2,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 22.5,
+          "precip": 0.2
+        },
+        {
+          "time": "15:02",
+          "temp": 25.9,
+          "precip": 0.04
+        },
+        {
+          "time": "16:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 27.2,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 27.1,
+          "precip": 0.03
+        },
+        {
+          "time": "20:02",
+          "temp": 21.5,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 28.0,
+          "precip": 0.26
+        },
+        {
+          "time": "22:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 26.2,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 23.6,
+          "precip": 0.05
+        },
+        {
+          "time": "02:02",
+          "temp": 23.7,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 27.3,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 23.4,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 29.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 27.8,
+          "precip": 0.02
+        },
+        {
+          "time": "09:02",
+          "temp": 26.5,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 25.7,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 27.4,
+          "precip": 0.01
+        },
+        {
+          "time": "12:02",
+          "temp": 29.7,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 27.3,
+          "min": 24.3,
+          "max": 30.3
+        },
+        {
+          "date": "Nov 02",
+          "avg": 25.4,
+          "min": 22.4,
+          "max": 28.4
+        },
+        {
+          "date": "Nov 03",
+          "avg": 27.2,
+          "min": 24.2,
+          "max": 30.2
+        },
+        {
+          "date": "Nov 04",
+          "avg": 31.4,
+          "min": 28.4,
+          "max": 34.4
+        },
+        {
+          "date": "Nov 05",
+          "avg": 22.1,
+          "min": 19.1,
+          "max": 25.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 24.4,
+          "min": 21.4,
+          "max": 27.4
+        },
+        {
+          "date": "Nov 07",
+          "avg": 22.1,
+          "min": 19.1,
+          "max": 25.1
+        }
+      ]
+    }
+  },
+  {
+    "city": "Chicago",
+    "country": "US",
+    "current": {
+      "temp": 20.4,
+      "humidity": 66,
+      "pressure": 996,
+      "wind_speed": 1.1,
+      "dew_point": 18.4,
+      "uv_index": 10,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 14.3,
+          "precip": 0.22
+        },
+        {
+          "time": "15:02",
+          "temp": 12.8,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 13.3,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 18.1,
+          "precip": 0.25
+        },
+        {
+          "time": "20:02",
+          "temp": 14.7,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 15.2,
+          "precip": 0.18
+        },
+        {
+          "time": "22:02",
+          "temp": 16.6,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 19.9,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 19.6,
+          "precip": 0.23
+        },
+        {
+          "time": "01:02",
+          "temp": 18.2,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 18.0,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 18.6,
+          "precip": 0.11
+        },
+        {
+          "time": "04:02",
+          "temp": 17.0,
+          "precip": 0.1
+        },
+        {
+          "time": "05:02",
+          "temp": 17.2,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 19.3,
+          "precip": 0.18
+        },
+        {
+          "time": "08:02",
+          "temp": 23.5,
+          "precip": 0.1
+        },
+        {
+          "time": "09:02",
+          "temp": 22.7,
+          "precip": 0.06
+        },
+        {
+          "time": "10:02",
+          "temp": 21.5,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 19.8,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 25.7,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.3,
+          "min": 17.3,
+          "max": 23.3
+        },
+        {
+          "date": "Nov 02",
+          "avg": 19.7,
+          "min": 16.7,
+          "max": 22.7
+        },
+        {
+          "date": "Nov 03",
+          "avg": 18.5,
+          "min": 15.5,
+          "max": 21.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 20.9,
+          "min": 17.9,
+          "max": 23.9
+        },
+        {
+          "date": "Nov 05",
+          "avg": 20.1,
+          "min": 17.1,
+          "max": 23.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 23.6,
+          "min": 20.6,
+          "max": 26.6
+        },
+        {
+          "date": "Nov 07",
+          "avg": 20.8,
+          "min": 17.8,
+          "max": 23.8
+        }
+      ]
+    }
+  },
+  {
+    "city": "Paris",
+    "country": "FR",
+    "current": {
+      "temp": 16.2,
+      "humidity": 61,
+      "pressure": 1031,
+      "wind_speed": 4.0,
+      "dew_point": 11.5,
+      "uv_index": 3,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 12.1,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 8.5,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 16.2,
+          "precip": 0.03
+        },
+        {
+          "time": "16:02",
+          "temp": 16.1,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 10.2,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 9.5,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 10.7,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 14.5,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 11.0,
+          "precip": 0.13
+        },
+        {
+          "time": "22:02",
+          "temp": 11.6,
+          "precip": 0.05
+        },
+        {
+          "time": "23:02",
+          "temp": 15.0,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 17.0,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 16.1,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 11.3,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 17.5,
+          "precip": 0.18
+        },
+        {
+          "time": "04:02",
+          "temp": 14.5,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 16.9,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 12.4,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 12.5,
+          "precip": 0.05
+        },
+        {
+          "time": "08:02",
+          "temp": 19.8,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 18.9,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 17.7,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 16.7,
+          "precip": 0.12
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 17.9,
+          "min": 14.9,
+          "max": 20.9
+        },
+        {
+          "date": "Nov 02",
+          "avg": 14.8,
+          "min": 11.8,
+          "max": 17.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 19.5,
+          "min": 16.5,
+          "max": 22.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 9.4,
+          "min": 6.4,
+          "max": 12.4
+        },
+        {
+          "date": "Nov 05",
+          "avg": 9.0,
+          "min": 6.0,
+          "max": 12.0
+        },
+        {
+          "date": "Nov 06",
+          "avg": 17.7,
+          "min": 14.7,
+          "max": 20.7
+        },
+        {
+          "date": "Nov 07",
+          "avg": 14.0,
+          "min": 11.0,
+          "max": 17.0
+        }
+      ]
+    }
+  },
+  {
+    "city": "Berlin",
+    "country": "DE",
+    "current": {
+      "temp": 24.1,
+      "humidity": 39,
+      "pressure": 1006,
+      "wind_speed": 5.3,
+      "dew_point": 24.6,
+      "uv_index": 8,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 24.3,
+          "precip": 0.15
+        },
+        {
+          "time": "14:02",
+          "temp": 20.4,
+          "precip": 0.13
+        },
+        {
+          "time": "15:02",
+          "temp": 24.4,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 22.6,
+          "precip": 0.2
+        },
+        {
+          "time": "17:02",
+          "temp": 26.3,
+          "precip": 0.16
+        },
+        {
+          "time": "18:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 26.9,
+          "precip": 0.27
+        },
+        {
+          "time": "20:02",
+          "temp": 25.3,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 22.8,
+          "precip": 0.06
+        },
+        {
+          "time": "23:02",
+          "temp": 27.1,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 28.8,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 27.8,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 27.8,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 24.8,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 24.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 27.1,
+          "precip": 0.08
+        },
+        {
+          "time": "10:02",
+          "temp": 32.1,
+          "precip": 0.16
+        },
+        {
+          "time": "11:02",
+          "temp": 28.1,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 31.3,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 29.1,
+          "min": 26.1,
+          "max": 32.1
+        },
+        {
+          "date": "Nov 02",
+          "avg": 30.1,
+          "min": 27.1,
+          "max": 33.1
+        },
+        {
+          "date": "Nov 03",
+          "avg": 24.6,
+          "min": 21.6,
+          "max": 27.6
+        },
+        {
+          "date": "Nov 04",
+          "avg": 28.1,
+          "min": 25.1,
+          "max": 31.1
+        },
+        {
+          "date": "Nov 05",
+          "avg": 26.2,
+          "min": 23.2,
+          "max": 29.2
+        },
+        {
+          "date": "Nov 06",
+          "avg": 23.8,
+          "min": 20.8,
+          "max": 26.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 29.7,
+          "min": 26.7,
+          "max": 32.7
+        }
+      ]
+    }
+  },
+  {
+    "city": "Tokyo",
+    "country": "JP",
+    "current": {
+      "temp": 14.7,
+      "humidity": 42,
+      "pressure": 1035,
+      "wind_speed": 7.4,
+      "dew_point": 12.7,
+      "uv_index": 9,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 7.4,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 7.6,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 10.7,
+          "precip": 0.0
+        },
+        {
+          "time": "17:02",
+          "temp": 15.0,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 10.4,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 14.1,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 9.9,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 12.8,
+          "precip": 0.18
+        },
+        {
+          "time": "22:02",
+          "temp": 12.5,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 11.0,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 16.8,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 12.7,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 13.4,
+          "precip": 0.11
+        },
+        {
+          "time": "03:02",
+          "temp": 15.8,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 17.4,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 16.5,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 11.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 13.4,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 17.1,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 15.1,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 19.8,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 18.9,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 16.2,
+          "precip": 0.14
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 9.3,
+          "min": 6.3,
+          "max": 12.3
+        },
+        {
+          "date": "Nov 02",
+          "avg": 13.8,
+          "min": 10.8,
+          "max": 16.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 10.9,
+          "min": 7.9,
+          "max": 13.9
+        },
+        {
+          "date": "Nov 04",
+          "avg": 14.8,
+          "min": 11.8,
+          "max": 17.8
+        },
+        {
+          "date": "Nov 05",
+          "avg": 19.1,
+          "min": 16.1,
+          "max": 22.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 8.1,
+          "min": 5.1,
+          "max": 11.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 8.3,
+          "min": 5.3,
+          "max": 11.3
+        }
+      ]
+    }
+  },
+  {
+    "city": "Osaka",
+    "country": "JP",
+    "current": {
+      "temp": 13.3,
+      "humidity": 90,
+      "pressure": 996,
+      "wind_speed": 4.8,
+      "dew_point": 14.2,
+      "uv_index": 11,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 10.4,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 9.5,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 9.2,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 7.7,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 13.3,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 15.5,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 16.1,
+          "precip": 0.07
+        },
+        {
+          "time": "20:02",
+          "temp": 15.3,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 12.3,
+          "precip": 0.27
+        },
+        {
+          "time": "22:02",
+          "temp": 10.1,
+          "precip": 0.06
+        },
+        {
+          "time": "23:02",
+          "temp": 12.6,
+          "precip": 0.25
+        },
+        {
+          "time": "00:02",
+          "temp": 11.6,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 15.0,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 14.6,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 15.1,
+          "precip": 0.09
+        },
+        {
+          "time": "04:02",
+          "temp": 15.8,
+          "precip": 0.3
+        },
+        {
+          "time": "05:02",
+          "temp": 18.6,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 12.4,
+          "precip": 0.16
+        },
+        {
+          "time": "07:02",
+          "temp": 13.3,
+          "precip": 0.13
+        },
+        {
+          "time": "08:02",
+          "temp": 18.4,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 16.7,
+          "precip": 0.15
+        },
+        {
+          "time": "10:02",
+          "temp": 14.8,
+          "precip": 0.04
+        },
+        {
+          "time": "11:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 13.4,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 9.6,
+          "min": 6.6,
+          "max": 12.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 17.6,
+          "min": 14.6,
+          "max": 20.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 13.3,
+          "min": 10.3,
+          "max": 16.3
+        },
+        {
+          "date": "Nov 04",
+          "avg": 8.0,
+          "min": 5.0,
+          "max": 11.0
+        },
+        {
+          "date": "Nov 05",
+          "avg": 17.4,
+          "min": 14.4,
+          "max": 20.4
+        },
+        {
+          "date": "Nov 06",
+          "avg": 11.1,
+          "min": 8.1,
+          "max": 14.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 15.7,
+          "min": 12.7,
+          "max": 18.7
+        }
+      ]
+    }
+  },
+  {
+    "city": "Seoul",
+    "country": "KR",
+    "current": {
+      "temp": 19.9,
+      "humidity": 46,
+      "pressure": 1023,
+      "wind_speed": 1.2,
+      "dew_point": 18.1,
+      "uv_index": 9,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 17.0,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 20.2,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 17.5,
+          "precip": 0.06
+        },
+        {
+          "time": "17:02",
+          "temp": 17.7,
+          "precip": 0.01
+        },
+        {
+          "time": "18:02",
+          "temp": 18.4,
+          "precip": 0.25
+        },
+        {
+          "time": "19:02",
+          "temp": 19.3,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 21.6,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 21.6,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 17.5,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 20.3,
+          "precip": 0.08
+        },
+        {
+          "time": "00:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 23.2,
+          "precip": 0.29
+        },
+        {
+          "time": "04:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 24.5,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 20.7,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 25.1,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 24.8,
+          "precip": 0.02
+        },
+        {
+          "time": "10:02",
+          "temp": 21.0,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 18.3,
+          "precip": 0.19
+        },
+        {
+          "time": "12:02",
+          "temp": 22.9,
+          "precip": 0.16
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 21.0,
+          "min": 18.0,
+          "max": 24.0
+        },
+        {
+          "date": "Nov 02",
+          "avg": 17.3,
+          "min": 14.3,
+          "max": 20.3
+        },
+        {
+          "date": "Nov 03",
+          "avg": 18.8,
+          "min": 15.8,
+          "max": 21.8
+        },
+        {
+          "date": "Nov 04",
+          "avg": 22.2,
+          "min": 19.2,
+          "max": 25.2
+        },
+        {
+          "date": "Nov 05",
+          "avg": 20.5,
+          "min": 17.5,
+          "max": 23.5
+        },
+        {
+          "date": "Nov 06",
+          "avg": 24.1,
+          "min": 21.1,
+          "max": 27.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 24.5,
+          "min": 21.5,
+          "max": 27.5
+        }
+      ]
+    }
+  },
+  {
+    "city": "Sydney",
+    "country": "AU",
+    "current": {
+      "temp": 11.7,
+      "humidity": 66,
+      "pressure": 1015,
+      "wind_speed": 7.2,
+      "dew_point": 13.0,
+      "uv_index": 4,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 13.2,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 7.0,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 6.4,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 8.0,
+          "precip": 0.29
+        },
+        {
+          "time": "17:02",
+          "temp": 6.6,
+          "precip": 0.18
+        },
+        {
+          "time": "18:02",
+          "temp": 7.9,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 11.7,
+          "precip": 0.03
+        },
+        {
+          "time": "20:02",
+          "temp": 13.6,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 8.0,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 9.7,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 10.1,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 10.9,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 13.1,
+          "precip": 0.05
+        },
+        {
+          "time": "02:02",
+          "temp": 14.5,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 11.9,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 9.9,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 9.7,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 15.3,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 14.6,
+          "precip": 0.18
+        },
+        {
+          "time": "09:02",
+          "temp": 10.5,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 18.5,
+          "precip": 0.28
+        },
+        {
+          "time": "11:02",
+          "temp": 18.2,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 17.3,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 17.0,
+          "min": 14.0,
+          "max": 20.0
+        },
+        {
+          "date": "Nov 02",
+          "avg": 7.8,
+          "min": 4.8,
+          "max": 10.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 15.5,
+          "min": 12.5,
+          "max": 18.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 12.4,
+          "min": 9.4,
+          "max": 15.4
+        },
+        {
+          "date": "Nov 05",
+          "avg": 10.6,
+          "min": 7.6,
+          "max": 13.6
+        },
+        {
+          "date": "Nov 06",
+          "avg": 18.1,
+          "min": 15.1,
+          "max": 21.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 8.2,
+          "min": 5.2,
+          "max": 11.2
+        }
+      ]
+    }
+  },
+  {
+    "city": "Melbourne",
+    "country": "AU",
+    "current": {
+      "temp": 21.1,
+      "humidity": 33,
+      "pressure": 1007,
+      "wind_speed": 6.1,
+      "dew_point": 21.3,
+      "uv_index": 1,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 13.8,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 21.0,
+          "precip": 0.11
+        },
+        {
+          "time": "15:02",
+          "temp": 18.2,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 21.2,
+          "precip": 0.2
+        },
+        {
+          "time": "17:02",
+          "temp": 15.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 21.2,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 22.7,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 18.3,
+          "precip": 0.18
+        },
+        {
+          "time": "21:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 22.1,
+          "precip": 0.3
+        },
+        {
+          "time": "23:02",
+          "temp": 17.1,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 19.1,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 19.7,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 24.9,
+          "precip": 0.04
+        },
+        {
+          "time": "03:02",
+          "temp": 21.7,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 17.9,
+          "precip": 0.03
+        },
+        {
+          "time": "05:02",
+          "temp": 23.7,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 19.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 20.3,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 25.3,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 20.4,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 20.4,
+          "precip": 0.29
+        },
+        {
+          "time": "12:02",
+          "temp": 23.0,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.8,
+          "min": 17.8,
+          "max": 23.8
+        },
+        {
+          "date": "Nov 02",
+          "avg": 16.6,
+          "min": 13.6,
+          "max": 19.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 21.8,
+          "min": 18.8,
+          "max": 24.8
+        },
+        {
+          "date": "Nov 04",
+          "avg": 25.8,
+          "min": 22.8,
+          "max": 28.8
+        },
+        {
+          "date": "Nov 05",
+          "avg": 14.8,
+          "min": 11.8,
+          "max": 17.8
+        },
+        {
+          "date": "Nov 06",
+          "avg": 24.4,
+          "min": 21.4,
+          "max": 27.4
+        },
+        {
+          "date": "Nov 07",
+          "avg": 16.2,
+          "min": 13.2,
+          "max": 19.2
+        }
+      ]
+    }
+  },
+  {
+    "city": "Cape Town",
+    "country": "ZA",
+    "current": {
+      "temp": 13.8,
+      "humidity": 72,
+      "pressure": 1005,
+      "wind_speed": 5.9,
+      "dew_point": 14.8,
+      "uv_index": 9,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 7.1,
+          "precip": 0.02
+        },
+        {
+          "time": "14:02",
+          "temp": 10.4,
+          "precip": 0.03
+        },
+        {
+          "time": "15:02",
+          "temp": 14.0,
+          "precip": 0.08
+        },
+        {
+          "time": "16:02",
+          "temp": 14.4,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 14.0,
+          "precip": 0.07
+        },
+        {
+          "time": "18:02",
+          "temp": 11.0,
+          "precip": 0.14
+        },
+        {
+          "time": "19:02",
+          "temp": 10.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 13.5,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 10.2,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 13.3,
+          "precip": 0.08
+        },
+        {
+          "time": "23:02",
+          "temp": 11.1,
+          "precip": 0.16
+        },
+        {
+          "time": "00:02",
+          "temp": 11.9,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 14.3,
+          "precip": 0.25
+        },
+        {
+          "time": "02:02",
+          "temp": 10.3,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 11.5,
+          "precip": 0.13
+        },
+        {
+          "time": "04:02",
+          "temp": 15.0,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 16.1,
+          "precip": 0.13
+        },
+        {
+          "time": "06:02",
+          "temp": 16.8,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 17.9,
+          "precip": 0.09
+        },
+        {
+          "time": "09:02",
+          "temp": 18.4,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 12.2,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 16.2,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 14.1,
+          "precip": 0.26
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 13.1,
+          "min": 10.1,
+          "max": 16.1
+        },
+        {
+          "date": "Nov 02",
+          "avg": 16.4,
+          "min": 13.4,
+          "max": 19.4
+        },
+        {
+          "date": "Nov 03",
+          "avg": 9.2,
+          "min": 6.2,
+          "max": 12.2
+        },
+        {
+          "date": "Nov 04",
+          "avg": 18.5,
+          "min": 15.5,
+          "max": 21.5
+        },
+        {
+          "date": "Nov 05",
+          "avg": 14.6,
+          "min": 11.6,
+          "max": 17.6
+        },
+        {
+          "date": "Nov 06",
+          "avg": 12.0,
+          "min": 9.0,
+          "max": 15.0
+        },
+        {
+          "date": "Nov 07",
+          "avg": 12.2,
+          "min": 9.2,
+          "max": 15.2
+        }
+      ]
+    }
+  },
+  {
+    "city": "Cairo",
+    "country": "EG",
+    "current": {
+      "temp": 21.0,
+      "humidity": 51,
+      "pressure": 1004,
+      "wind_speed": 0.6,
+      "dew_point": 18.0,
+      "uv_index": 7,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 14.9,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 20.8,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 20.6,
+          "precip": 0.13
+        },
+        {
+          "time": "16:02",
+          "temp": 17.5,
+          "precip": 0.18
+        },
+        {
+          "time": "17:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 23.0,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 17.2,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 21.0,
+          "precip": 0.24
+        },
+        {
+          "time": "21:02",
+          "temp": 20.7,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 16.9,
+          "precip": 0.19
+        },
+        {
+          "time": "23:02",
+          "temp": 18.2,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 20.0,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 23.9,
+          "precip": 0.2
+        },
+        {
+          "time": "02:02",
+          "temp": 18.9,
+          "precip": 0.29
+        },
+        {
+          "time": "03:02",
+          "temp": 20.0,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 18.3,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 18.5,
+          "precip": 0.02
+        },
+        {
+          "time": "06:02",
+          "temp": 23.5,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 22.0,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 19.4,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 19.4,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 24.1,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 22.6,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 22.2,
+          "min": 19.2,
+          "max": 25.2
+        },
+        {
+          "date": "Nov 02",
+          "avg": 18.6,
+          "min": 15.6,
+          "max": 21.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 21.4,
+          "min": 18.4,
+          "max": 24.4
+        },
+        {
+          "date": "Nov 04",
+          "avg": 22.9,
+          "min": 19.9,
+          "max": 25.9
+        },
+        {
+          "date": "Nov 05",
+          "avg": 24.1,
+          "min": 21.1,
+          "max": 27.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 19.4,
+          "min": 16.4,
+          "max": 22.4
+        },
+        {
+          "date": "Nov 07",
+          "avg": 15.6,
+          "min": 12.6,
+          "max": 18.6
+        }
+      ]
+    }
+  },
+  {
+    "city": "Dubai",
+    "country": "AE",
+    "current": {
+      "temp": 23.1,
+      "humidity": 60,
+      "pressure": 1031,
+      "wind_speed": 5.8,
+      "dew_point": 21.1,
+      "uv_index": 8,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 17.2,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 18.8,
+          "precip": 0.09
+        },
+        {
+          "time": "15:02",
+          "temp": 23.5,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 25.8,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 24.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 19.6,
+          "precip": 0.11
+        },
+        {
+          "time": "20:02",
+          "temp": 25.2,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 20.3,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 24.5,
+          "precip": 0.05
+        },
+        {
+          "time": "23:02",
+          "temp": 20.7,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 20.0,
+          "precip": 0.27
+        },
+        {
+          "time": "01:02",
+          "temp": 20.6,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 23.0,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 22.2,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 23.8,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 23.7,
+          "precip": 0.2
+        },
+        {
+          "time": "06:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 27.2,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 28.7,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 30.0,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 25.8,
+          "precip": 0.22
+        },
+        {
+          "time": "11:02",
+          "temp": 30.7,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 26.8,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 25.6,
+          "min": 22.6,
+          "max": 28.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 26.0,
+          "min": 23.0,
+          "max": 29.0
+        },
+        {
+          "date": "Nov 03",
+          "avg": 27.7,
+          "min": 24.7,
+          "max": 30.7
+        },
+        {
+          "date": "Nov 04",
+          "avg": 21.0,
+          "min": 18.0,
+          "max": 24.0
+        },
+        {
+          "date": "Nov 05",
+          "avg": 28.1,
+          "min": 25.1,
+          "max": 31.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 19.0,
+          "min": 16.0,
+          "max": 22.0
+        },
+        {
+          "date": "Nov 07",
+          "avg": 25.4,
+          "min": 22.4,
+          "max": 28.4
+        }
+      ]
+    }
+  },
+  {
+    "city": "Istanbul",
+    "country": "TR",
+    "current": {
+      "temp": 28.8,
+      "humidity": 52,
+      "pressure": 1016,
+      "wind_speed": 3.8,
+      "dew_point": 28.1,
+      "uv_index": 2,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 25.9,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 27.2,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 25.9,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 22.1,
+          "precip": 0.19
+        },
+        {
+          "time": "18:02",
+          "temp": 27.7,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 22.2,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 23.6,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 22.7,
+          "precip": 0.07
+        },
+        {
+          "time": "23:02",
+          "temp": 23.8,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 23.9,
+          "precip": 0.04
+        },
+        {
+          "time": "01:02",
+          "temp": 24.1,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 23.9,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 28.5,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 32.1,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 27.3,
+          "precip": 0.29
+        },
+        {
+          "time": "07:02",
+          "temp": 25.7,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 28.1,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 28.9,
+          "precip": 0.08
+        },
+        {
+          "time": "11:02",
+          "temp": 30.4,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 30.9,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 26.1,
+          "min": 23.1,
+          "max": 29.1
+        },
+        {
+          "date": "Nov 02",
+          "avg": 22.9,
+          "min": 19.9,
+          "max": 25.9
+        },
+        {
+          "date": "Nov 03",
+          "avg": 21.8,
+          "min": 18.8,
+          "max": 24.8
+        },
+        {
+          "date": "Nov 04",
+          "avg": 30.7,
+          "min": 27.7,
+          "max": 33.7
+        },
+        {
+          "date": "Nov 05",
+          "avg": 21.2,
+          "min": 18.2,
+          "max": 24.2
+        },
+        {
+          "date": "Nov 06",
+          "avg": 32.9,
+          "min": 29.9,
+          "max": 35.9
+        },
+        {
+          "date": "Nov 07",
+          "avg": 24.0,
+          "min": 21.0,
+          "max": 27.0
+        }
+      ]
+    }
+  },
+  {
+    "city": "Moscow",
+    "country": "RU",
+    "current": {
+      "temp": 22.7,
+      "humidity": 57,
+      "pressure": 1000,
+      "wind_speed": 6.3,
+      "dew_point": 17.9,
+      "uv_index": 5,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 20.7,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 23.0,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 17.0,
+          "precip": 0.18
+        },
+        {
+          "time": "17:02",
+          "temp": 19.4,
+          "precip": 0.05
+        },
+        {
+          "time": "18:02",
+          "temp": 20.9,
+          "precip": 0.04
+        },
+        {
+          "time": "19:02",
+          "temp": 21.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 18.6,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 24.6,
+          "precip": 0.03
+        },
+        {
+          "time": "23:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 22.3,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 25.1,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 21.1,
+          "precip": 0.18
+        },
+        {
+          "time": "03:02",
+          "temp": 19.5,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 19.4,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 26.3,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 19.9,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 25.8,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 22.9,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 21.4,
+          "precip": 0.07
+        },
+        {
+          "time": "12:02",
+          "temp": 28.7,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 25.0,
+          "min": 22.0,
+          "max": 28.0
+        },
+        {
+          "date": "Nov 02",
+          "avg": 22.8,
+          "min": 19.8,
+          "max": 25.8
+        },
+        {
+          "date": "Nov 03",
+          "avg": 27.2,
+          "min": 24.2,
+          "max": 30.2
+        },
+        {
+          "date": "Nov 04",
+          "avg": 17.3,
+          "min": 14.3,
+          "max": 20.3
+        },
+        {
+          "date": "Nov 05",
+          "avg": 16.6,
+          "min": 13.6,
+          "max": 19.6
+        },
+        {
+          "date": "Nov 06",
+          "avg": 26.4,
+          "min": 23.4,
+          "max": 29.4
+        },
+        {
+          "date": "Nov 07",
+          "avg": 16.4,
+          "min": 13.4,
+          "max": 19.4
+        }
+      ]
+    }
+  },
+  {
+    "city": "Toronto",
+    "country": "CA",
+    "current": {
+      "temp": 27.1,
+      "humidity": 36,
+      "pressure": 1035,
+      "wind_speed": 5.5,
+      "dew_point": 23.0,
+      "uv_index": 1,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 25.5,
+          "precip": 0.09
+        },
+        {
+          "time": "16:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 27.7,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 25.7,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 24.8,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 26.9,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 26.9,
+          "precip": 0.28
+        },
+        {
+          "time": "22:02",
+          "temp": 24.4,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 27.2,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 24.1,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 25.1,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 25.7,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 31.8,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 30.2,
+          "precip": 0.24
+        },
+        {
+          "time": "06:02",
+          "temp": 25.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 29.3,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 31.5,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 28.7,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 33.9,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 33.8,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 25.0,
+          "min": 22.0,
+          "max": 28.0
+        },
+        {
+          "date": "Nov 02",
+          "avg": 25.6,
+          "min": 22.6,
+          "max": 28.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 33.9,
+          "min": 30.9,
+          "max": 36.9
+        },
+        {
+          "date": "Nov 04",
+          "avg": 24.6,
+          "min": 21.6,
+          "max": 27.6
+        },
+        {
+          "date": "Nov 05",
+          "avg": 31.1,
+          "min": 28.1,
+          "max": 34.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 22.8,
+          "min": 19.8,
+          "max": 25.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 23.5,
+          "min": 20.5,
+          "max": 26.5
+        }
+      ]
+    }
+  },
+  {
+    "city": "Vancouver",
+    "country": "CA",
+    "current": {
+      "temp": 17.4,
+      "humidity": 54,
+      "pressure": 1009,
+      "wind_speed": 6.8,
+      "dew_point": 15.5,
+      "uv_index": 11,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 13.6,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 11.6,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 11.8,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 16.0,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 12.2,
+          "precip": 0.2
+        },
+        {
+          "time": "18:02",
+          "temp": 18.6,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 16.0,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 18.8,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 13.9,
+          "precip": 0.27
+        },
+        {
+          "time": "23:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 14.1,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 14.5,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 20.8,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 18.7,
+          "precip": 0.25
+        },
+        {
+          "time": "06:02",
+          "temp": 19.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 20.2,
+          "precip": 0.11
+        },
+        {
+          "time": "09:02",
+          "temp": 21.3,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 21.3,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 23.7,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 21.7,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 13.2,
+          "min": 10.2,
+          "max": 16.2
+        },
+        {
+          "date": "Nov 02",
+          "avg": 13.2,
+          "min": 10.2,
+          "max": 16.2
+        },
+        {
+          "date": "Nov 03",
+          "avg": 22.2,
+          "min": 19.2,
+          "max": 25.2
+        },
+        {
+          "date": "Nov 04",
+          "avg": 15.0,
+          "min": 12.0,
+          "max": 18.0
+        },
+        {
+          "date": "Nov 05",
+          "avg": 18.7,
+          "min": 15.7,
+          "max": 21.7
+        },
+        {
+          "date": "Nov 06",
+          "avg": 17.1,
+          "min": 14.1,
+          "max": 20.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 13.4,
+          "min": 10.4,
+          "max": 16.4
+        }
+      ]
+    }
+  },
+  {
+    "city": "S\u00e3o Paulo",
+    "country": "BR",
+    "current": {
+      "temp": 26.5,
+      "humidity": 72,
+      "pressure": 992,
+      "wind_speed": 5.9,
+      "dew_point": 23.3,
+      "uv_index": 2,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 24.7,
+          "precip": 0.18
+        },
+        {
+          "time": "14:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 24.6,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 19.5,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 20.9,
+          "precip": 0.27
+        },
+        {
+          "time": "19:02",
+          "temp": 22.0,
+          "precip": 0.05
+        },
+        {
+          "time": "20:02",
+          "temp": 26.1,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 24.3,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 26.3,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 23.2,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 28.0,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 26.8,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 29.0,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 25.2,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 30.0,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 26.8,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 23.5,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 29.0,
+          "precip": 0.29
+        },
+        {
+          "time": "10:02",
+          "temp": 27.6,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 29.0,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 28.7,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 29.4,
+          "min": 26.4,
+          "max": 32.4
+        },
+        {
+          "date": "Nov 02",
+          "avg": 24.2,
+          "min": 21.2,
+          "max": 27.2
+        },
+        {
+          "date": "Nov 03",
+          "avg": 21.6,
+          "min": 18.6,
+          "max": 24.6
+        },
+        {
+          "date": "Nov 04",
+          "avg": 26.9,
+          "min": 23.9,
+          "max": 29.9
+        },
+        {
+          "date": "Nov 05",
+          "avg": 19.7,
+          "min": 16.7,
+          "max": 22.7
+        },
+        {
+          "date": "Nov 06",
+          "avg": 19.9,
+          "min": 16.9,
+          "max": 22.9
+        },
+        {
+          "date": "Nov 07",
+          "avg": 19.1,
+          "min": 16.1,
+          "max": 22.1
+        }
+      ]
+    }
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "AR",
+    "current": {
+      "temp": 31.7,
+      "humidity": 30,
+      "pressure": 991,
+      "wind_speed": 2.7,
+      "dew_point": 27.1,
+      "uv_index": 9,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 30.0,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 31.0,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 26.6,
+          "precip": 0.11
+        },
+        {
+          "time": "16:02",
+          "temp": 26.9,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 30.1,
+          "precip": 0.13
+        },
+        {
+          "time": "18:02",
+          "temp": 26.4,
+          "precip": 0.22
+        },
+        {
+          "time": "19:02",
+          "temp": 28.6,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 32.3,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 30.5,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 27.1,
+          "precip": 0.17
+        },
+        {
+          "time": "23:02",
+          "temp": 32.2,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 30.7,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 34.9,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 34.8,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 32.0,
+          "precip": 0.06
+        },
+        {
+          "time": "04:02",
+          "temp": 35.4,
+          "precip": 0.08
+        },
+        {
+          "time": "05:02",
+          "temp": 35.8,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 33.7,
+          "precip": 0.11
+        },
+        {
+          "time": "07:02",
+          "temp": 35.2,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 32.4,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 34.6,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 32.9,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 33.6,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 37.1,
+          "precip": 0.08
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 30.1,
+          "min": 27.1,
+          "max": 33.1
+        },
+        {
+          "date": "Nov 02",
+          "avg": 25.6,
+          "min": 22.6,
+          "max": 28.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 28.2,
+          "min": 25.2,
+          "max": 31.2
+        },
+        {
+          "date": "Nov 04",
+          "avg": 35.5,
+          "min": 32.5,
+          "max": 38.5
+        },
+        {
+          "date": "Nov 05",
+          "avg": 32.1,
+          "min": 29.1,
+          "max": 35.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 29.0,
+          "min": 26.0,
+          "max": 32.0
+        },
+        {
+          "date": "Nov 07",
+          "avg": 37.0,
+          "min": 34.0,
+          "max": 40.0
+        }
+      ]
+    }
+  },
+  {
+    "city": "Lima",
+    "country": "PE",
+    "current": {
+      "temp": 12.5,
+      "humidity": 67,
+      "pressure": 1021,
+      "wind_speed": 0.8,
+      "dew_point": 10.5,
+      "uv_index": 10,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 11.6,
+          "precip": 0.14
+        },
+        {
+          "time": "14:02",
+          "temp": 11.9,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 5.9,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 12.7,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 9.0,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 8.8,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 13.2,
+          "precip": 0.17
+        },
+        {
+          "time": "20:02",
+          "temp": 7.2,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 12.0,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 13.4,
+          "precip": 0.12
+        },
+        {
+          "time": "23:02",
+          "temp": 7.7,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 13.1,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 12.4,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 13.4,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 14.4,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 10.5,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 8.5,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 10.6,
+          "precip": 0.1
+        },
+        {
+          "time": "07:02",
+          "temp": 10.2,
+          "precip": 0.01
+        },
+        {
+          "time": "08:02",
+          "temp": 16.8,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 10.7,
+          "precip": 0.07
+        },
+        {
+          "time": "10:02",
+          "temp": 11.3,
+          "precip": 0.1
+        },
+        {
+          "time": "11:02",
+          "temp": 10.7,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 11.8,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 11.4,
+          "min": 8.4,
+          "max": 14.4
+        },
+        {
+          "date": "Nov 02",
+          "avg": 13.9,
+          "min": 10.9,
+          "max": 16.9
+        },
+        {
+          "date": "Nov 03",
+          "avg": 9.7,
+          "min": 6.7,
+          "max": 12.7
+        },
+        {
+          "date": "Nov 04",
+          "avg": 14.8,
+          "min": 11.8,
+          "max": 17.8
+        },
+        {
+          "date": "Nov 05",
+          "avg": 11.4,
+          "min": 8.4,
+          "max": 14.4
+        },
+        {
+          "date": "Nov 06",
+          "avg": 7.3,
+          "min": 4.3,
+          "max": 10.3
+        },
+        {
+          "date": "Nov 07",
+          "avg": 14.8,
+          "min": 11.8,
+          "max": 17.8
+        }
+      ]
+    }
+  },
+  {
+    "city": "Mexico City",
+    "country": "MX",
+    "current": {
+      "temp": 25.2,
+      "humidity": 54,
+      "pressure": 1035,
+      "wind_speed": 3.0,
+      "dew_point": 26.5,
+      "uv_index": 0,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 23.8,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 27.7,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 28.2,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 23.5,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 24.7,
+          "precip": 0.25
+        },
+        {
+          "time": "18:02",
+          "temp": 28.9,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 21.7,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 29.1,
+          "precip": 0.03
+        },
+        {
+          "time": "21:02",
+          "temp": 29.6,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 25.4,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 26.6,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 27.9,
+          "precip": 0.27
+        },
+        {
+          "time": "02:02",
+          "temp": 28.5,
+          "precip": 0.29
+        },
+        {
+          "time": "03:02",
+          "temp": 28.8,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 24.6,
+          "precip": 0.0
+        },
+        {
+          "time": "05:02",
+          "temp": 31.3,
+          "precip": 0.25
+        },
+        {
+          "time": "06:02",
+          "temp": 30.4,
+          "precip": 0.2
+        },
+        {
+          "time": "07:02",
+          "temp": 31.1,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 30.4,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 31.6,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 30.7,
+          "precip": 0.18
+        },
+        {
+          "time": "12:02",
+          "temp": 31.2,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 24.6,
+          "min": 21.6,
+          "max": 27.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 33.0,
+          "min": 30.0,
+          "max": 36.0
+        },
+        {
+          "date": "Nov 03",
+          "avg": 23.5,
+          "min": 20.5,
+          "max": 26.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 22.7,
+          "min": 19.7,
+          "max": 25.7
+        },
+        {
+          "date": "Nov 05",
+          "avg": 23.8,
+          "min": 20.8,
+          "max": 26.8
+        },
+        {
+          "date": "Nov 06",
+          "avg": 27.5,
+          "min": 24.5,
+          "max": 30.5
+        },
+        {
+          "date": "Nov 07",
+          "avg": 26.6,
+          "min": 23.6,
+          "max": 29.6
+        }
+      ]
+    }
+  },
+  {
+    "city": "Jakarta",
+    "country": "ID",
+    "current": {
+      "temp": 20.7,
+      "humidity": 54,
+      "pressure": 1018,
+      "wind_speed": 1.4,
+      "dew_point": 19.4,
+      "uv_index": 5,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 16.7,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 20.9,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 17.6,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 17.6,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 21.5,
+          "precip": 0.25
+        },
+        {
+          "time": "20:02",
+          "temp": 22.0,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 22.5,
+          "precip": 0.18
+        },
+        {
+          "time": "22:02",
+          "temp": 25.3,
+          "precip": 0.26
+        },
+        {
+          "time": "23:02",
+          "temp": 22.4,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 22.0,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 19.5,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 23.5,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 19.3,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 24.8,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 25.3,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 20.3,
+          "precip": 0.2
+        },
+        {
+          "time": "09:02",
+          "temp": 20.8,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 27.4,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 22.1,
+          "precip": 0.06
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.8,
+          "min": 17.8,
+          "max": 23.8
+        },
+        {
+          "date": "Nov 02",
+          "avg": 23.4,
+          "min": 20.4,
+          "max": 26.4
+        },
+        {
+          "date": "Nov 03",
+          "avg": 16.7,
+          "min": 13.7,
+          "max": 19.7
+        },
+        {
+          "date": "Nov 04",
+          "avg": 24.0,
+          "min": 21.0,
+          "max": 27.0
+        },
+        {
+          "date": "Nov 05",
+          "avg": 17.8,
+          "min": 14.8,
+          "max": 20.8
+        },
+        {
+          "date": "Nov 06",
+          "avg": 21.2,
+          "min": 18.2,
+          "max": 24.2
+        },
+        {
+          "date": "Nov 07",
+          "avg": 19.0,
+          "min": 16.0,
+          "max": 22.0
+        }
+      ]
+    }
+  },
+  {
+    "city": "Bangkok",
+    "country": "TH",
+    "current": {
+      "temp": 30.6,
+      "humidity": 45,
+      "pressure": 1004,
+      "wind_speed": 4.5,
+      "dew_point": 30.0,
+      "uv_index": 9,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 29.5,
+          "precip": 0.13
+        },
+        {
+          "time": "17:02",
+          "temp": 31.0,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 27.0,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 31.0,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 27.8,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 29.2,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 26.3,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 31.3,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 30.9,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 26.4,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 33.7,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 29.1,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 26.8,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 32.1,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 32.9,
+          "precip": 0.05
+        },
+        {
+          "time": "07:02",
+          "temp": 33.0,
+          "precip": 0.26
+        },
+        {
+          "time": "08:02",
+          "temp": 33.4,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 34.1,
+          "precip": 0.27
+        },
+        {
+          "time": "10:02",
+          "temp": 30.1,
+          "precip": 0.14
+        },
+        {
+          "time": "11:02",
+          "temp": 30.4,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 32.4,
+          "precip": 0.06
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 27.8,
+          "min": 24.8,
+          "max": 30.8
+        },
+        {
+          "date": "Nov 02",
+          "avg": 33.3,
+          "min": 30.3,
+          "max": 36.3
+        },
+        {
+          "date": "Nov 03",
+          "avg": 30.3,
+          "min": 27.3,
+          "max": 33.3
+        },
+        {
+          "date": "Nov 04",
+          "avg": 35.1,
+          "min": 32.1,
+          "max": 38.1
+        },
+        {
+          "date": "Nov 05",
+          "avg": 30.4,
+          "min": 27.4,
+          "max": 33.4
+        },
+        {
+          "date": "Nov 06",
+          "avg": 27.8,
+          "min": 24.8,
+          "max": 30.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 26.5,
+          "min": 23.5,
+          "max": 29.5
+        }
+      ]
+    }
+  },
+  {
+    "city": "Singapore",
+    "country": "SG",
+    "current": {
+      "temp": 22.4,
+      "humidity": 58,
+      "pressure": 1029,
+      "wind_speed": 5.1,
+      "dew_point": 16.5,
+      "uv_index": 0,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 14.5,
+          "precip": 0.21
+        },
+        {
+          "time": "14:02",
+          "temp": 15.6,
+          "precip": 0.13
+        },
+        {
+          "time": "15:02",
+          "temp": 16.3,
+          "precip": 0.18
+        },
+        {
+          "time": "16:02",
+          "temp": 18.1,
+          "precip": 0.1
+        },
+        {
+          "time": "17:02",
+          "temp": 17.2,
+          "precip": 0.22
+        },
+        {
+          "time": "18:02",
+          "temp": 18.8,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 17.4,
+          "precip": 0.06
+        },
+        {
+          "time": "21:02",
+          "temp": 20.3,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 23.4,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 21.3,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 18.9,
+          "precip": 0.07
+        },
+        {
+          "time": "02:02",
+          "temp": 18.0,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 20.7,
+          "precip": 0.12
+        },
+        {
+          "time": "04:02",
+          "temp": 22.7,
+          "precip": 0.29
+        },
+        {
+          "time": "05:02",
+          "temp": 20.9,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 22.9,
+          "precip": 0.29
+        },
+        {
+          "time": "07:02",
+          "temp": 24.8,
+          "precip": 0.09
+        },
+        {
+          "time": "08:02",
+          "temp": 22.0,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 21.7,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 24.0,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 26.2,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 23.9,
+          "min": 20.9,
+          "max": 26.9
+        },
+        {
+          "date": "Nov 02",
+          "avg": 18.2,
+          "min": 15.2,
+          "max": 21.2
+        },
+        {
+          "date": "Nov 03",
+          "avg": 25.3,
+          "min": 22.3,
+          "max": 28.3
+        },
+        {
+          "date": "Nov 04",
+          "avg": 17.8,
+          "min": 14.8,
+          "max": 20.8
+        },
+        {
+          "date": "Nov 05",
+          "avg": 26.3,
+          "min": 23.3,
+          "max": 29.3
+        },
+        {
+          "date": "Nov 06",
+          "avg": 21.8,
+          "min": 18.8,
+          "max": 24.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 26.5,
+          "min": 23.5,
+          "max": 29.5
+        }
+      ]
+    }
+  },
+  {
+    "city": "Kuala Lumpur",
+    "country": "MY",
+    "current": {
+      "temp": 21.1,
+      "humidity": 64,
+      "pressure": 1023,
+      "wind_speed": 0.6,
+      "dew_point": 19.7,
+      "uv_index": 3,
+      "icon": "\u2600\ufe0f"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 17.0,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 19.2,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 17.9,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 20.9,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 23.2,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 24.5,
+          "precip": 0.21
+        },
+        {
+          "time": "20:02",
+          "temp": 17.6,
+          "precip": 0.3
+        },
+        {
+          "time": "21:02",
+          "temp": 20.2,
+          "precip": 0.16
+        },
+        {
+          "time": "22:02",
+          "temp": 22.1,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 18.3,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 21.7,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 20.2,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 25.3,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 24.9,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 20.4,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 19.9,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 20.3,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 21.8,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 28.2,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 27.9,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 24.2,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 28.4,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 20.2,
+          "min": 17.2,
+          "max": 23.2
+        },
+        {
+          "date": "Nov 02",
+          "avg": 20.7,
+          "min": 17.7,
+          "max": 23.7
+        },
+        {
+          "date": "Nov 03",
+          "avg": 20.3,
+          "min": 17.3,
+          "max": 23.3
+        },
+        {
+          "date": "Nov 04",
+          "avg": 16.8,
+          "min": 13.8,
+          "max": 19.8
+        },
+        {
+          "date": "Nov 05",
+          "avg": 19.8,
+          "min": 16.8,
+          "max": 22.8
+        },
+        {
+          "date": "Nov 06",
+          "avg": 26.8,
+          "min": 23.8,
+          "max": 29.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 22.9,
+          "min": 19.9,
+          "max": 25.9
+        }
+      ]
+    }
+  },
+  {
+    "city": "Zurich",
+    "country": "CH",
+    "current": {
+      "temp": 14.1,
+      "humidity": 43,
+      "pressure": 1027,
+      "wind_speed": 1.7,
+      "dew_point": 10.6,
+      "uv_index": 3,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 8.5,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 10.2,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 13.7,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 11.7,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 15.2,
+          "precip": 0.22
+        },
+        {
+          "time": "18:02",
+          "temp": 11.3,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 15.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 15.7,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 15.3,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 12.5,
+          "precip": 0.22
+        },
+        {
+          "time": "23:02",
+          "temp": 13.7,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 13.8,
+          "precip": 0.04
+        },
+        {
+          "time": "01:02",
+          "temp": 16.8,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 17.8,
+          "precip": 0.16
+        },
+        {
+          "time": "04:02",
+          "temp": 14.0,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 18.8,
+          "precip": 0.27
+        },
+        {
+          "time": "06:02",
+          "temp": 14.3,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 14.1,
+          "precip": 0
+        },
+        {
+          "time": "08:02",
+          "temp": 18.3,
+          "precip": 0.08
+        },
+        {
+          "time": "09:02",
+          "temp": 20.6,
+          "precip": 0.25
+        },
+        {
+          "time": "10:02",
+          "temp": 15.0,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 15.1,
+          "precip": 0.23
+        },
+        {
+          "time": "12:02",
+          "temp": 14.8,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 9.6,
+          "min": 6.6,
+          "max": 12.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 10.2,
+          "min": 7.2,
+          "max": 13.2
+        },
+        {
+          "date": "Nov 03",
+          "avg": 15.8,
+          "min": 12.8,
+          "max": 18.8
+        },
+        {
+          "date": "Nov 04",
+          "avg": 17.7,
+          "min": 14.7,
+          "max": 20.7
+        },
+        {
+          "date": "Nov 05",
+          "avg": 16.7,
+          "min": 13.7,
+          "max": 19.7
+        },
+        {
+          "date": "Nov 06",
+          "avg": 12.8,
+          "min": 9.8,
+          "max": 15.8
+        },
+        {
+          "date": "Nov 07",
+          "avg": 12.4,
+          "min": 9.4,
+          "max": 15.4
+        }
+      ]
+    }
+  },
+  {
+    "city": "Rome",
+    "country": "IT",
+    "current": {
+      "temp": 15.9,
+      "humidity": 57,
+      "pressure": 1003,
+      "wind_speed": 6.3,
+      "dew_point": 16.8,
+      "uv_index": 9,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 12.6,
+          "precip": 0.29
+        },
+        {
+          "time": "14:02",
+          "temp": 14.7,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 12.1,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 14.5,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 12.8,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 13.4,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 15.3,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 17.3,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 15.6,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 16.2,
+          "precip": 0.1
+        },
+        {
+          "time": "00:02",
+          "temp": 12.6,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 14.6,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 15.7,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 16.0,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 15.5,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 18.9,
+          "precip": 0.12
+        },
+        {
+          "time": "06:02",
+          "temp": 16.6,
+          "precip": 0
+        },
+        {
+          "time": "07:02",
+          "temp": 14.8,
+          "precip": 0.23
+        },
+        {
+          "time": "08:02",
+          "temp": 18.3,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 15.8,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 18.4,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 17.2,
+          "precip": 0.13
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 18.1,
+          "min": 15.1,
+          "max": 21.1
+        },
+        {
+          "date": "Nov 02",
+          "avg": 16.2,
+          "min": 13.2,
+          "max": 19.2
+        },
+        {
+          "date": "Nov 03",
+          "avg": 15.0,
+          "min": 12.0,
+          "max": 18.0
+        },
+        {
+          "date": "Nov 04",
+          "avg": 22.4,
+          "min": 19.4,
+          "max": 25.4
+        },
+        {
+          "date": "Nov 05",
+          "avg": 21.2,
+          "min": 18.2,
+          "max": 24.2
+        },
+        {
+          "date": "Nov 06",
+          "avg": 13.1,
+          "min": 10.1,
+          "max": 16.1
+        },
+        {
+          "date": "Nov 07",
+          "avg": 19.6,
+          "min": 16.6,
+          "max": 22.6
+        }
+      ]
+    }
+  },
+  {
+    "city": "Madrid",
+    "country": "ES",
+    "current": {
+      "temp": 13.4,
+      "humidity": 57,
+      "pressure": 998,
+      "wind_speed": 8.3,
+      "dew_point": 8.1,
+      "uv_index": 5,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 8.6,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 12.9,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 5.9,
+          "precip": 0
+        },
+        {
+          "time": "16:02",
+          "temp": 7.6,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 11.2,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 6.5,
+          "precip": 0
+        },
+        {
+          "time": "19:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 14.1,
+          "precip": 0
+        },
+        {
+          "time": "21:02",
+          "temp": 12.0,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 8.6,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 8.0,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 11.5,
+          "precip": 0.23
+        },
+        {
+          "time": "01:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 15.1,
+          "precip": 0.05
+        },
+        {
+          "time": "03:02",
+          "temp": 10.1,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 15.1,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 11.1,
+          "precip": 0
+        },
+        {
+          "time": "06:02",
+          "temp": 16.9,
+          "precip": 0.11
+        },
+        {
+          "time": "07:02",
+          "temp": 14.1,
+          "precip": 0.02
+        },
+        {
+          "time": "08:02",
+          "temp": 17.3,
+          "precip": 0
+        },
+        {
+          "time": "09:02",
+          "temp": 16.8,
+          "precip": 0.25
+        },
+        {
+          "time": "10:02",
+          "temp": 12.6,
+          "precip": 0.07
+        },
+        {
+          "time": "11:02",
+          "temp": 18.6,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 14.5,
+          "precip": 0
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 9.9,
+          "min": 6.9,
+          "max": 12.9
+        },
+        {
+          "date": "Nov 02",
+          "avg": 15.4,
+          "min": 12.4,
+          "max": 18.4
+        },
+        {
+          "date": "Nov 03",
+          "avg": 12.3,
+          "min": 9.3,
+          "max": 15.3
+        },
+        {
+          "date": "Nov 04",
+          "avg": 7.1,
+          "min": 4.1,
+          "max": 10.1
+        },
+        {
+          "date": "Nov 05",
+          "avg": 10.0,
+          "min": 7.0,
+          "max": 13.0
+        },
+        {
+          "date": "Nov 06",
+          "avg": 8.9,
+          "min": 5.9,
+          "max": 11.9
+        },
+        {
+          "date": "Nov 07",
+          "avg": 8.6,
+          "min": 5.6,
+          "max": 11.6
+        }
+      ]
+    }
+  },
+  {
+    "city": "Stockholm",
+    "country": "SE",
+    "current": {
+      "temp": 18.5,
+      "humidity": 55,
+      "pressure": 1009,
+      "wind_speed": 2.1,
+      "dew_point": 19.3,
+      "uv_index": 10,
+      "icon": "\u26c5"
+    },
+    "forecast": {
+      "hourly": [
+        {
+          "time": "13:02",
+          "temp": 20.8,
+          "precip": 0
+        },
+        {
+          "time": "14:02",
+          "temp": 14.2,
+          "precip": 0
+        },
+        {
+          "time": "15:02",
+          "temp": 16.5,
+          "precip": 0.29
+        },
+        {
+          "time": "16:02",
+          "temp": 15.6,
+          "precip": 0
+        },
+        {
+          "time": "17:02",
+          "temp": 17.1,
+          "precip": 0
+        },
+        {
+          "time": "18:02",
+          "temp": 16.9,
+          "precip": 0.08
+        },
+        {
+          "time": "19:02",
+          "temp": 17.8,
+          "precip": 0
+        },
+        {
+          "time": "20:02",
+          "temp": 20.3,
+          "precip": 0.29
+        },
+        {
+          "time": "21:02",
+          "temp": 22.4,
+          "precip": 0
+        },
+        {
+          "time": "22:02",
+          "temp": 22.8,
+          "precip": 0
+        },
+        {
+          "time": "23:02",
+          "temp": 20.6,
+          "precip": 0
+        },
+        {
+          "time": "00:02",
+          "temp": 22.5,
+          "precip": 0
+        },
+        {
+          "time": "01:02",
+          "temp": 23.3,
+          "precip": 0
+        },
+        {
+          "time": "02:02",
+          "temp": 17.1,
+          "precip": 0
+        },
+        {
+          "time": "03:02",
+          "temp": 21.1,
+          "precip": 0
+        },
+        {
+          "time": "04:02",
+          "temp": 23.6,
+          "precip": 0
+        },
+        {
+          "time": "05:02",
+          "temp": 22.5,
+          "precip": 0.23
+        },
+        {
+          "time": "06:02",
+          "temp": 18.0,
+          "precip": 0.03
+        },
+        {
+          "time": "07:02",
+          "temp": 20.8,
+          "precip": 0.08
+        },
+        {
+          "time": "08:02",
+          "temp": 25.1,
+          "precip": 0.02
+        },
+        {
+          "time": "09:02",
+          "temp": 25.0,
+          "precip": 0
+        },
+        {
+          "time": "10:02",
+          "temp": 23.1,
+          "precip": 0
+        },
+        {
+          "time": "11:02",
+          "temp": 21.9,
+          "precip": 0
+        },
+        {
+          "time": "12:02",
+          "temp": 19.3,
+          "precip": 0.15
+        }
+      ],
+      "daily": [
+        {
+          "date": "Nov 01",
+          "avg": 18.6,
+          "min": 15.6,
+          "max": 21.6
+        },
+        {
+          "date": "Nov 02",
+          "avg": 19.6,
+          "min": 16.6,
+          "max": 22.6
+        },
+        {
+          "date": "Nov 03",
+          "avg": 18.5,
+          "min": 15.5,
+          "max": 21.5
+        },
+        {
+          "date": "Nov 04",
+          "avg": 14.5,
+          "min": 11.5,
+          "max": 17.5
+        },
+        {
+          "date": "Nov 05",
+          "avg": 16.1,
+          "min": 13.1,
+          "max": 19.1
+        },
+        {
+          "date": "Nov 06",
+          "avg": 25.4,
+          "min": 22.4,
+          "max": 28.4
+        },
+        {
+          "date": "Nov 07",
+          "avg": 19.9,
+          "min": 16.9,
+          "max": 22.9
+        }
+      ]
+    }
+  }
+]
