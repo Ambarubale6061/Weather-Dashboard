@@ -1,111 +1,128 @@
 import React, { useEffect, useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { motion } from "framer-motion";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  fetchCurrentWeather,
+  fetchForecast,
+  updateLastUpdated,
+} from "../redux/slices/weatherSlice";
+import { addFavorite, removeFavorite } from "../redux/slices/favoritesSlice";
 import CityCard from "./CityCard";
 import SearchBar from "./SearchBar";
-import { fetchWeatherForCity } from "../store/weatherSlice";
-import sample from "../data/sample_countries.json";
+import Settings from "./Settings";
+import Login from "./Login";
+import "../styles/Dashboard.css";
 
-export default function Dashboard() {
+const Dashboard = () => {
   const dispatch = useDispatch();
-  const favs = useSelector((s) => s.favorites.favorites);
-  const cache = useSelector((s) => s.weather.cache);
-  const loading = useSelector((s) => s.weather.loading);
-
-  const [cities, setCities] = useState(
-    favs.length ? favs : sample.slice(0, 30).map((c) => c.city) // default: all 30 countries visible
+  const { current, loading, lastUpdated } = useSelector(
+    (state) => state.weather
   );
+  const { cities: favorites } = useSelector((state) => state.favorites);
+  const { refreshInterval } = useSelector((state) => state.settings);
+  const { isAuthenticated } = useSelector((state) => state.auth);
+  const [cities, setCities] = useState(["London", "New York", "Tokyo"]);
 
   useEffect(() => {
-    // initial + periodic fetch
+    // Load initial cities
     cities.forEach((city) => {
-      const cached = cache[city];
-      if (!cached || Date.now() - cached.ts > 60000) {
-        dispatch(fetchWeatherForCity(city));
-      }
+      dispatch(fetchCurrentWeather(city));
+      dispatch(fetchForecast(city));
     });
-    const interval = setInterval(() => {
-      cities.forEach((city) => dispatch(fetchWeatherForCity(city)));
-    }, 60000);
-    return () => clearInterval(interval);
-  }, [cities, dispatch]);
+  }, [dispatch]);
 
-  const onAdd = (city) => {
-    setCities((prev) => Array.from(new Set([city, ...prev])).slice(0, 40));
+  useEffect(() => {
+    // Auto-refresh data
+    const interval = setInterval(() => {
+      if (isAuthenticated) {
+        cities.forEach((city) => {
+          dispatch(fetchCurrentWeather(city));
+        });
+        dispatch(updateLastUpdated());
+      }
+    }, refreshInterval * 1000);
+
+    return () => clearInterval(interval);
+  }, [cities, dispatch, refreshInterval, isAuthenticated]);
+
+  const handleAddCity = (city) => {
+    if (!cities.includes(city)) {
+      setCities((prev) => [...prev, city]);
+      dispatch(fetchCurrentWeather(city));
+      dispatch(fetchForecast(city));
+    }
+  };
+
+  const handleRemoveCity = (city) => {
+    setCities((prev) => prev.filter((c) => c !== city));
+  };
+
+  const handleToggleFavorite = (city, isFavorite) => {
+    if (isFavorite) {
+      dispatch(removeFavorite(city));
+    } else {
+      dispatch(addFavorite(city));
+    }
   };
 
   return (
-    <div className="min-h-screen relative overflow-hidden p-6">
-      {/* soft animated gradient background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-sky-50 via-white to-blue-100 animate-gradient-slow" />
-
-      <div className="relative z-10">
-        <div className="dashboard-top flex flex-col sm:flex-row items-center justify-between mb-8">
-          <motion.h1
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className="text-3xl font-extrabold text-slate-800 tracking-tight"
-          >
-            🌤 Global Weather Dashboard
-          </motion.h1>
-
-          <SearchBar onAdd={onAdd} />
+    <div className="dashboard">
+      <header className="dashboard-header">
+        <div className="header-content">
+          <h1>🌤️ Weather Analytics Dashboard</h1>
+          <div className="header-actions">
+            <Login />
+            <Settings />
+          </div>
         </div>
+        <SearchBar onCitySelect={handleAddCity} />
 
-        {loading && (
-          <p className="text-slate-500 text-center animate-pulse mb-4">
-            Fetching latest weather data...
-          </p>
+        {lastUpdated && (
+          <div className="last-updated">
+            Last updated: {new Date(lastUpdated).toLocaleTimeString()}
+            {isAuthenticated && <span className="real-time-badge">LIVE</span>}
+          </div>
         )}
+      </header>
 
-        {/* Cards grid */}
-        <motion.section
-          layout
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-        >
-          {cities.map((city, idx) => (
-            <motion.div
-              key={city}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.04 }}
-            >
-              <CityCard city={city} data={cache[city]?.data} />
-            </motion.div>
-          ))}
-        </motion.section>
-
-        {/* Explore Section */}
-        <motion.section
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.5 }}
-          className="mt-12 bg-white/60 backdrop-blur-2xl p-6 rounded-3xl shadow-xl border border-slate-200"
-        >
-          <h2 className="text-2xl font-semibold text-slate-700 mb-2">
-            🌍 Explore Global Cities
-          </h2>
-          <p className="text-slate-500 mb-5">
-            Select any city above or below to view its detailed analytics
-            charts.
-          </p>
-
-          <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-6 gap-3 text-slate-700">
-            {sample.slice(0, 30).map((s) => (
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.97 }}
-                key={s.city}
-                onClick={() => onAdd(s.city)}
-                className="sample-item bg-white/70 hover:bg-sky-100 transition-all cursor-pointer rounded-xl p-2 text-center shadow-sm border border-slate-100 backdrop-blur-sm"
-              >
-                {s.city}, {s.country}
-              </motion.div>
+      <main className="dashboard-main">
+        {loading && cities.length === 0 ? (
+          <div className="loading">Loading weather data...</div>
+        ) : (
+          <div className="cities-grid">
+            {cities.map((city) => (
+              <CityCard
+                key={city}
+                city={city}
+                weather={current[city]}
+                isFavorite={favorites.includes(city)}
+                onRemove={() => handleRemoveCity(city)}
+                onToggleFavorite={(isFavorite) =>
+                  handleToggleFavorite(city, isFavorite)
+                }
+              />
             ))}
           </div>
-        </motion.section>
-      </div>
+        )}
+      </main>
+
+      {favorites.length > 0 && (
+        <section className="favorites-section">
+          <h2>⭐ Favorite Cities</h2>
+          <div className="favorites-grid">
+            {favorites.map((city) => (
+              <CityCard
+                key={city}
+                city={city}
+                weather={current[city]}
+                isFavorite={true}
+                onToggleFavorite={() => dispatch(removeFavorite(city))}
+              />
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
-}
+};
+
+export default Dashboard;

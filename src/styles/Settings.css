@@ -1,0 +1,103 @@
+.settings-container {
+  position: relative;
+}
+
+.settings-toggle {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.settings-toggle:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.settings-modal {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 10px;
+  z-index: 1000;
+}
+
+.settings-content {
+  background: white;
+  border-radius: 15px;
+  padding: 0;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  min-width: 300px;
+  backdrop-filter: blur(20px);
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.settings-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.settings-group {
+  padding: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.settings-group:last-child {
+  border-bottom: none;
+}
+
+.settings-group h4 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.radio-option input {
+  margin: 0;
+}
+
+.interval-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  font-size: 1rem;
+}
+
+.settings-info {
+  padding: 15px 20px;
+  background: #f8f9fa;
+  border-radius: 0 0 15px 15px;
+}
+
+.settings-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+}

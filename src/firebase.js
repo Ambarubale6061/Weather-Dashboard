@@ -1,5 +1,3 @@
-// src/firebase.js
-// Lightweight firebase init that works with CRA (.env REACT_APP_*) or Vite (VITE_*)
 import { initializeApp } from "firebase/app";
 import {
   getAuth,
