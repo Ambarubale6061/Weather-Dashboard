@@ -92,7 +92,7 @@ const Dashboard = () => {
     setCities((prev) => prev.filter((c) => c !== city));
   };
 
-  // ✅ FIXED Favorite Toggle
+  // ✅ Favorite Toggle
   const handleToggleFavorite = (city) => {
     if (favorites.includes(city)) {
       dispatch(removeFavorite(city));
@@ -113,6 +113,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard">
+      {/* 🔹 Header */}
       <header className="dashboard-header">
         <div className="header-content">
           <h1>🌤️ Weather Analytics Dashboard</h1>
@@ -132,7 +133,7 @@ const Dashboard = () => {
         )}
       </header>
 
-      {/* 🌆 City Cards */}
+      {/* 🌆 City Cards Section */}
       <main className="dashboard-main">
         {loading && cities.length === 0 ? (
           <div className="loading">Loading weather data...</div>
@@ -152,7 +153,7 @@ const Dashboard = () => {
         )}
       </main>
 
-      {/* 📊 Advanced Global Temperature Analytics */}
+      {/* 📊 Global Temperature Analytics */}
       {chartData.length > 0 && (
         <section className="analytics-section">
           <h2>📈 Global Temperature Analytics</h2>
@@ -204,7 +205,7 @@ const Dashboard = () => {
         </section>
       )}
 
-      {/* ⭐ Favorite Cities */}
+      {/* ⭐ Favorite Cities Section */}
       {favorites.length > 0 && (
         <section className="favorites-section">
           <h2>⭐ Favorite Cities</h2>
@@ -221,6 +222,11 @@ const Dashboard = () => {
           </div>
         </section>
       )}
+
+      {/* ⚡ Footer */}
+      <footer className="dashboard-footer">
+        © <span>Ambar Ubale</span> — All rights reserved
+      </footer>
     </div>
   );
 };
