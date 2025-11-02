@@ -1,103 +1,167 @@
+/* ⚙️ Premium Glassmorphic Settings Modal */
+
 .settings-container {
   position: relative;
+  display: inline-block;
 }
 
 .settings-toggle {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 10px 15px;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  font-size: 0.95rem;
   cursor: pointer;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
   transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .settings-toggle:hover {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.2);
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* ===== Modal Overlay ===== */
 .settings-modal {
   position: absolute;
-  top: 100%;
   right: 0;
-  margin-top: 10px;
-  z-index: 1000;
-}
-
-.settings-content {
-  background: white;
-  border-radius: 15px;
-  padding: 0;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
-  min-width: 300px;
+  top: 120%;
+  z-index: 20;
+  background: rgba(30, 41, 59, 0.75);
   backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  width: 280px;
+  padding: 1.2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.45);
+  animation: slideIn 0.4s ease;
 }
 
+/* ===== Modal Header ===== */
 .settings-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 0.4rem;
 }
 
 .settings-header h3 {
-  margin: 0;
-  color: #333;
+  font-size: 1.1rem;
+  color: #f1f5f9;
+  font-weight: 600;
+  letter-spacing: 0.4px;
 }
 
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #f8fafc;
+}
+
+/* ===== Settings Groups ===== */
 .settings-group {
-  padding: 20px;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.settings-group:last-child {
-  border-bottom: none;
+  margin-bottom: 1.2rem;
 }
 
 .settings-group h4 {
-  margin: 0 0 15px 0;
-  color: #333;
+  font-size: 0.95rem;
+  color: #e2e8f0;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
 }
 
+/* ===== Radio Options ===== */
 .radio-group {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .radio-option {
   display: flex;
   align-items: center;
   gap: 10px;
-  cursor: pointer;
-  padding: 8px 0;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.3s ease;
 }
 
-.radio-option input {
-  margin: 0;
+.radio-option:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
+.radio-option span {
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: #38bdf8;
+  width: 16px;
+  height: 16px;
+}
+
+/* ===== Dropdown ===== */
 .interval-select {
   width: 100%;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background: white;
-  font-size: 1rem;
-}
-
-.settings-info {
-  padding: 15px 20px;
-  background: #f8f9fa;
-  border-radius: 0 0 15px 15px;
-}
-
-.settings-info p {
-  margin: 0;
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  color: #f1f5f9;
   font-size: 0.9rem;
-  color: #666;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.interval-select:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+/* ===== Info Text ===== */
+.settings-info {
   text-align: center;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 0.6rem;
+}
+
+/* ===== Animation ===== */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .settings-modal {
+    width: 90vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }

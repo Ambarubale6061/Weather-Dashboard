@@ -1,116 +1,174 @@
+/* 🌆 PREMIUM CITY CARD STYLE */
+
 .city-card {
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  cursor: pointer;
-  transition: all 0.3s ease;
   position: relative;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  padding: 1.8rem 1.5rem;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  animation: fadeInCard 1s ease;
 }
 
 .city-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+  border-color: rgba(255, 255, 255, 0.25);
 }
 
-.city-card.loading {
-  opacity: 0.7;
-}
-
+/* ===== Header ===== */
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 15px;
+  align-items: center;
 }
 
 .card-header h3 {
-  margin: 0;
-  color: #333;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #f8fafc;
+  letter-spacing: 0.3px;
 }
 
 .card-actions {
   display: flex;
-  gap: 5px;
+  align-items: center;
+  gap: 8px;
 }
 
 .favorite-btn,
 .remove-btn {
-  background: none;
   border: none;
-  font-size: 1.2rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #f8fafc;
+  padding: 6px 10px;
+  border-radius: 8px;
   cursor: pointer;
-  padding: 5px;
-  border-radius: 5px;
-  transition: all 0.2s ease;
+  transition: all 0.25s ease;
+  font-size: 1rem;
 }
 
 .favorite-btn:hover {
-  background: rgba(255, 204, 0, 0.1);
+  background: rgba(255, 215, 0, 0.15);
+  color: #facc15;
 }
 
 .favorite-btn.active {
-  color: #ffcc00;
+  background: rgba(250, 204, 21, 0.2);
+  color: #facc15;
 }
 
 .remove-btn:hover {
-  background: rgba(255, 0, 0, 0.1);
-  color: #ff4444;
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
 }
 
+/* ===== Weather Main Section ===== */
 .weather-main {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  justify-content: space-between;
+  margin-top: 1.2rem;
 }
 
 .temperature {
   font-size: 3rem;
   font-weight: 700;
-  color: #333;
-  line-height: 1;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.weather-icon {
-  font-size: 3rem;
+.weather-icon img {
+  width: 70px;
+  height: 70px;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.4));
 }
 
+/* ===== Description ===== */
 .weather-description {
   text-transform: capitalize;
-  color: #666;
-  margin-bottom: 15px;
-  font-size: 1.1rem;
+  color: #cbd5e1;
+  margin-top: 0.6rem;
+  font-size: 1rem;
+  letter-spacing: 0.3px;
 }
 
+/* ===== Details Grid ===== */
 .weather-details {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.8rem 1rem;
+  margin-top: 1.2rem;
+  color: #e2e8f0;
+  font-size: 0.95rem;
 }
 
 .detail-item {
   display: flex;
   justify-content: space-between;
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+  padding: 6px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: 0.3s ease;
 }
 
-.detail-item span:first-child {
-  color: #666;
+.detail-item:hover {
+  background: rgba(255, 255, 255, 0.08);
 }
 
-.detail-item span:last-child {
-  font-weight: 600;
-  color: #333;
+/* ===== Loading Placeholder ===== */
+.city-card.loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  animation: pulse 1.8s infinite;
 }
 
 .loading-text {
-  text-align: center;
-  color: #666;
-  font-style: italic;
-  padding: 20px;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeInCard {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .temperature {
+    font-size: 2.5rem;
+  }
+  .city-card {
+    padding: 1.2rem;
+  }
 }

@@ -1,3 +1,4 @@
+// src/firebase.js
 import { initializeApp } from "firebase/app";
 import {
   getAuth,
@@ -7,54 +8,43 @@ import {
 } from "firebase/auth";
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
-const env = (k) =>
-  process.env.REACT_APP_?.[k] ??
-  process.env[k] ??
-  process.env[`VITE_${k}`] ??
-  process.env[`VITE_${k.toUpperCase()}`] ??
-  process.env[`REACT_APP_${k}`];
-
+// ✅ Your Firebase config - must match keys in .env
 const firebaseConfig = {
-  apiKey: env("FIREBASE_API_KEY") || env("FIREBASE_API_KEY".toUpperCase()),
-  authDomain: env("FIREBASE_AUTH_DOMAIN"),
-  projectId: env("FIREBASE_PROJECT_ID"),
-  storageBucket: env("FIREBASE_STORAGE_BUCKET"),
-  messagingSenderId: env("FIREBASE_MESSAGING_SENDER_ID"),
-  appId: env("FIREBASE_APP_ID"),
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
-let app, auth, db;
-try {
-  app = initializeApp(firebaseConfig);
-  auth = getAuth(app);
-  db = getFirestore(app);
-} catch (e) {
-  console.warn("Firebase init failed — check .env", e?.message || e);
-}
-
+// ✅ Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
 const provider = new GoogleAuthProvider();
 
+// ✅ Google Sign-in
 export async function signInWithGoogle() {
-  if (!auth) throw new Error("Firebase auth not initialized");
-  const res = await signInWithPopup(auth, provider);
-  return res.user;
+  const result = await signInWithPopup(auth, provider);
+  return result.user;
 }
 
+// ✅ Google Sign-out
 export async function signOutGoogle() {
-  if (!auth) throw new Error("Firebase auth not initialized");
   await signOut(auth);
 }
 
+// ✅ Get favorites from Firestore
 export async function getUserFavorites(uid) {
-  if (!db) return null;
   const ref = doc(db, "favorites", uid);
   const snap = await getDoc(ref);
-  if (!snap.exists()) return null;
-  return snap.data()?.cities || null;
+  if (!snap.exists()) return [];
+  return snap.data()?.cities || [];
 }
 
+// ✅ Save favorites to Firestore
 export async function setUserFavorites(uid, cities) {
-  if (!db) return null;
   await setDoc(doc(db, "favorites", uid), { cities }, { merge: true });
   return true;
 }
