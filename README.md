@@ -27,4 +27,5 @@ Note: The sample dataset is used for charts offline. The app includes code to in
 
 Run `npm install` to install new dependencies before `npm start`.
 
-# Deployment Link :- https://weather-dashboard-six-steel.vercel.app/
+## Deployment Link :- 
+https://weather-dashboard-six-steel.vercel.app/
